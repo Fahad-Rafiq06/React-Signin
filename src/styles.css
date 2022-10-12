@@ -15,12 +15,16 @@ body{
     width: 100%;
 }
 .right-side{
-    width: calc(100% - 560px);
+    width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     position: relative;
     z-index: 1;
+}
+
+.left-side img{
+    width: 100%;
 }
 .main-form{
     width: 510px;
